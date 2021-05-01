@@ -280,12 +280,14 @@ nav + .container {
 #messages .list-group-item a:not(.message-link) {
   position: relative;
   z-index: 2;
+  
 }
 
 #messages .list-group-item {
   display: flex;
   align-items: flex-start;
   padding: 7px 20px 12px;
+  width:100%;
 }
 
 #messages:not(.no-hover) .list-group-item:hover {
